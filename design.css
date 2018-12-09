@@ -1,0 +1,258 @@
+body {
+  margin:0;
+background-image:url(http://boat-sites.com/wp-content/uploads/2014/04/bg-3-full.jpg);
+background-repeat:repeat-y;
+background-attachment:fixed;
+background-size:100% auto;
+color:white;
+margin-top: 50px;
+font-family: "Roboto", "Arial";
+font-size: 13px;
+padding-bottom:60px;
+}
+
+header{
+  background-image:url("https://www.innerloc.com/wp-content/uploads/2017/03/bigstock-Dark-carbon-fiber-background-157510367.jpg");
+  color:white;
+  margin:0;
+  padding:15px 15px 0px 15px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header h1 {
+  margin:0;
+  display:inline;
+
+}
+nav {
+  magrin:0;
+}
+footer {
+   position:fixed;
+   width:100%;
+   height:60px;
+   text-align:center;
+   bottom:-45px;
+   font-size:10px;
+}
+
+nav ul {
+  margin:0;
+  display:inline;
+  padding: 0 0 0 15px;
+}
+
+nav ul li {
+  list-style-type:none;
+  display:inline-block;
+  background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Pineapple-cut-Grey-Seamless-Pattern-For-Website-Background.jpg");
+  color:black;
+  padding:5px 15px;
+  margin:0;
+  border-radius:5px;
+
+}
+
+nav ul li a {
+  color:Black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button {
+  float:right;
+  width:10%;
+  border:none;
+  padding:5px 5px 2.5px 5px;
+  text-align:center;
+  text-decoration:none;
+  font-size:16px;
+  font-style:oblique;
+  border-radius:5px;
+  margin:0;
+  font-weight:bold;
+  color:black;
+  margin-right: 20px;
+}
+
+
+.right {
+  float:right;
+  width:10%;
+  border:none;
+  padding:5px 5px 2.5px 5px;
+  text-align:center;
+  text-decoration:none;
+  font-size:16px;
+  font-style:oblique;
+  border-radius:5px;
+  margin:0;
+  font-weight:bold;
+  color:black;
+  margin-right: 20px;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+
+.row:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.col {
+background-color:#333;
+height: 350px;
+width: 226px;
+float:left;
+width:31%;
+margin:.6%;
+border-radius:5px;
+padding:15px 10px 15px .6%;
+}
+
+.center {
+  background-color: #333;
+  height:700px;
+  width:33%;
+  border: 3px;
+  margin-left: 33%;
+  margin-top: 5%;
+  border-radius: 30px;
+}
+.login_board_1 {
+    background-color: #333;
+    height:300px;
+    width:15%;
+    border: 3px;
+    margin-left: 85%;
+    margin-top: -40%;
+    border-radius: 30px;
+    position:relative;
+}
+
+.login_board_2 {
+    background-color: #333;
+    top:47px;
+    right:135.594px;
+    max-width:1170.41px;
+    display:block;
+}
+
+.login_board_2_text {
+  position: absolute;
+}
+
+.header_style {
+  padding:10px 20px;
+  text-align: center;
+}
+.main_style {
+  padding:5px 20px;
+  font-size:15px;
+  font-family:arial;
+}
+.main_style.issues {
+  padding-top: 280px;
+  position:;
+}
+
+.col.got {
+background-image: url("https://revengeofthefans.com/wp-content/uploads/2018/11/got.jpg");
+background-repeat: no-repeat !important;
+background-position: center 50% !important;
+background-size: cover;
+height: 350px;
+width: 226px;
+float:left;
+width:31%;
+margin:.6%;
+border-radius:5px;
+padding:15px 10px 15px .6%;
+}
+.col.rome {
+background-image: url("https://www.hbo.com/content/dam/hbodata/series/rome/episodes/1/rome-1-3000x1688.jpg");
+background-repeat: no-repeat !important;
+background-position: center 50% !important;
+background-size: cover;
+height: 350px;
+width: 226px;
+float:left;
+width:31%;
+margin:.6%;
+border-radius:5px;
+padding:15px 10px 15px .6%;
+}
+.col.black-mirror {
+background-image: url("https://www.endemolshinegroup.com/wp-content/uploads/2018/05/Black-mirror-for-web.png");
+background-repeat: no-repeat !important;
+background-position: center 50% !important;
+background-size: cover;
+height: 350px;
+width: 226px;
+float:left;
+width:31%;
+margin:.6%;
+border-radius:5px;
+padding:15px 10px 15px .6%;
+}
+.col.spartacus {
+background-image: url("http://assets.starz.com/imgix/OriginalsPicker/SPSX_originalpicker.jpg");
+background-repeat: no-repeat !important;
+background-position: center 50% !important;
+background-size: cover;
+height: 350px;
+width: 226px;
+float:left;
+width:31%;
+margin:.6%;
+border-radius:5px;
+padding:15px 10px 15px .6%;
+}
+.col.pulp-fiction {
+background-image: url("https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg");
+background-repeat: no-repeat !important;
+background-position: center 50% !important;
+background-size: cover;
+height: 350px;
+width: 226px;
+float:left;
+width:31%;
+margin:.6%;
+border-radius:5px;
+padding:15px 10px 15px .6%;
+}
+.col.castlevania {
+background-image: url("https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2017/07/netflix-castlevania.jpg?itok=CIbi5S9z");
+background-repeat: no-repeat !important;
+background-position: center 50% !important;
+background-size: cover;
+height: 350px;
+width: 226px;
+float:left;
+width:31%;
+margin:.6%;
+border-radius:5px;
+padding:15px 10px 15px .6%;
+}
+.col.magicians {
+background-image: url("https://otakukart.com/wp-content/uploads/2018/09/The-Magicians-poster.jpg");
+background-repeat: no-repeat !important;
+background-position: center 50% !important;
+background-size: cover;
+height: 350px;
+width: 226px;
+float:left;
+width:31%;
+margin:.6%;
+border-radius:5px;
+padding:15px 10px 15px .6%;
+}
