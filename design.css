@@ -165,6 +165,8 @@ padding:15px 10px 15px .6%;
   position:;
 }
 
+/* MEDIUM INSERTS */
+
 .col.got {
 background-image: url("https://revengeofthefans.com/wp-content/uploads/2018/11/got.jpg");
 background-repeat: no-repeat !important;
@@ -256,3 +258,51 @@ margin:.6%;
 border-radius:5px;
 padding:15px 10px 15px .6%;
 }
+
+
+/* DROPDOWN STYLING */
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 5px 80px 5px 40px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  float:right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  right:0;
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+.show {display:block;}
