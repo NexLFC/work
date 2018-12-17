@@ -4,7 +4,6 @@ define('DB_PASSWORD','');
 define('DB_HOST','localhost');
 define('DB_NAME','r&ls');
 
-
 $dbcl = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 if($dbcl->connection_error){

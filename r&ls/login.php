@@ -65,9 +65,8 @@ if(filter_input(INPUT_POST, 'login')){
 
 
 ?>
-
-<fieldset>
-    <legend>Login</legend>
+    <div class="login_container">
+    <h2 style="text-align:center">Login</h2>
     <?php echo isset($msg)?$msg:''; ?>
     <form action="login.php" method="POST">
         <p>
@@ -85,8 +84,8 @@ if(filter_input(INPUT_POST, 'login')){
             </span>
         </p>
         <p>
-            <input type="submit" name="login" value="This" />
+            <input type="submit" name="login" value="Login" />
         </p>
     </form>
-</fieldset>
+  </div>
 <?php include FOOTER; ?>

@@ -6,27 +6,22 @@
 <script src="test.js"></script>
 </head>
 <body>
-<header>
-    <nav>
-      <h1>NexLFC Medium DB Project</h1>
-        <ul>
-            <li><a href="main_page">Home</a></li>
-            <li><a href="tv_shows_and_movies.html">TV Shows & Movies</a></li>
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Anime</a></li>
-            <li><a href="#">Games</a></li>
-            <div class="dropdown">
-              <button class="dropbtn" onclick="hiddenButton()">Login</button>
-              <div id="myDropdown" class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-            </div>
-        </ul>
-
-    </nav>
-    </header>
+  <div class="navbar">
+    <h1>NexLFC Medium DB Project</h1>
+    <a href="main_page.html">Home</a>
+    <a href="tv_shows_and_movies.html">TV Shows & Movies</a>
+    <a href="#books">Books</a>
+    <a href="#anime">Anime</a>
+    <a href="#games">Games</a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="loginDropdown()">Login</button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="/r&ls/login.php">Sign in</a>
+      <a href="/r&ls/logout.php">Sign out</a>
+      <a href="/r&ls/register.php">Register</a>
+    </div>
+    </div>
+  </div>
     <div class=row>
       <div class=center>
           <h2 class="header_style" align="center">An Entertainment Medium Database Project</h3>
@@ -34,7 +29,8 @@
             <p class="main_style">I figured this would be a rather easy stepping stone to grasp the feeling of building a website again.</p>
             <p class="main_style">Started this on November 13th, 2018. Stopped working on it: TBD. A rather self-evident project to prove that tutorials blow for the most part.</p>
             <p class="main_style">Adding more to the DB would be pointless right now so I'll focus on PHP features.</p>
-            <p align="center" class="main_style issues">Current issues to revisit: login button, store images,r&ls, REMAKE THE UNRULY NAVBAR</p>
+            <p class="main_style">As of recent events, I'm satisfied with the current functionality of the r&ls and navigation. Will be adding content to the DB to my leisure and expand on features, design and functionality. Having a blast.</p>
+            <div class="wrapper_issues"<p align="center">Current issues to revisit: bizarre php error message that doesn't affect anything. Apart from that -- nothing!</p> </div>
       </div>
     </div>
       <!-- TRYING ALTERNATIVE <div id="content" class=login_board_1>

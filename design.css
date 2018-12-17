@@ -5,30 +5,12 @@ background-repeat:repeat-y;
 background-attachment:fixed;
 background-size:100% auto;
 color:white;
-margin-top: 50px;
 font-family: "Roboto", "Arial";
 font-size: 13px;
 padding-bottom:60px;
+padding-top:100px;
 }
 
-header{
-  background-image:url("https://www.innerloc.com/wp-content/uploads/2017/03/bigstock-Dark-carbon-fiber-background-157510367.jpg");
-  color:white;
-  margin:0;
-  padding:15px 15px 0px 15px;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-header h1 {
-  margin:0;
-  display:inline;
-
-}
-nav {
-  magrin:0;
-}
 footer {
    position:fixed;
    width:100%;
@@ -38,44 +20,77 @@ footer {
    font-size:10px;
 }
 
-nav ul {
-  margin:0;
-  display:inline;
-  padding: 0 0 0 15px;
-}
+/* NEW NAVBAR STYLING */
 
-nav ul li {
-  list-style-type:none;
-  display:inline-block;
-  background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Pineapple-cut-Grey-Seamless-Pattern-For-Website-Background.jpg");
-  color:black;
-  padding:5px 15px;
+.navbar {
+  background-color: #2E2E2E;
   margin:0;
-  border-radius:5px;
+  padding:0 15px 0px 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
 }
 
-nav ul li a {
-  color:Black;
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+}
+
+.dropdown {
+  float:right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 40px 15px 40px;
+  background-color: inherit;
+  margin:0 25px 0 0;
   font-weight: bold;
 }
 
-button {
-  float:right;
-  width:10%;
-  border:none;
-  padding:5px 5px 2.5px 5px;
-  text-align:center;
-  text-decoration:none;
-  font-size:16px;
-  font-style:oblique;
-  border-radius:5px;
-  margin:0;
-  font-weight:bold;
-  color:black;
-  margin-right: 20px;
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+  border: .1px solid #eee;
 }
+
+.dropdown-content {
+  right:0;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+/*background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Pineapple-cut-Grey-Seamless-Pattern-For-Website-Background.jpg");*/
 
 
 .right {
@@ -119,8 +134,10 @@ border-radius:5px;
 padding:15px 10px 15px .6%;
 }
 
+/* OUTDATED DIV CONTAINER */
 .center {
-  background-color: #333;
+  padding-top:30px;
+  background-color: rgba(46,46,46,.95);
   height:700px;
   width:33%;
   border: 3px;
@@ -128,6 +145,9 @@ padding:15px 10px 15px .6%;
   margin-top: 5%;
   border-radius: 30px;
 }
+
+/* DISCONTINUED
+
 .login_board_1 {
     background-color: #333;
     height:300px;
@@ -150,6 +170,7 @@ padding:15px 10px 15px .6%;
 .login_board_2_text {
   position: absolute;
 }
+*/
 
 .header_style {
   padding:10px 20px;
@@ -160,9 +181,122 @@ padding:15px 10px 15px .6%;
   font-size:15px;
   font-family:arial;
 }
-.main_style.issues {
-  padding-top: 280px;
-  position:;
+.wrapper_issues{
+  position:relative;
+  padding-top:200px;
+}
+
+h1 {
+  font-size:20px;
+  font-weight:bold;
+  margin:5px 0 5px 0;
+  padding-top:8px;
+}
+
+/* REGISTRATION STYLING */
+
+.registration_container{
+  padding-top: 50px;
+  padding-right: 10px;
+  width:550px;
+  min-height:530px;
+  border-radius: 10px;
+  background-color: rgba(46,46,46,.95);
+  margin:0 auto;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: column;
+  margin-top: 90px;
+  clear:both;
+}
+.login_container{
+  padding-top: 50px;
+  padding-right: 10px;
+  width:500px;
+  min-height:350px;
+  border-radius: 10px;
+  background-color: rgba(46,46,46,.95);
+  margin:0 auto;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+/* NOTE TO SELF- CHILDREN WILL INHERIT OPACITY */
+
+.transparent_style_black{
+  background-color: #2E2E2E;
+  opacity:.8;
+}
+
+ul a:hover{
+background-color: #2E2E2E;
+}
+form{
+  margin: 0 auto;
+}
+input[type="submit"]{
+background-color: #2E2E2E;
+font-size: 17px;
+padding: 11px 0;
+cursor: pointer;
+color: #eee;
+font-weight: bold;
+margin-left: 180px;
+}
+
+input[type="submit"]:hover{
+background: rgb(53,106,160);
+border: 1px solid #eee;
+color:#eee;
+}
+input[name="first_name"],input[name="last_name"]{
+  width: 150px;
+}
+input[name="username"]{
+  width: 180px;
+}
+input[name="password"],input[name="cpassword"]{
+  width: 190px;
+}
+
+legend{
+  font-size: 20px;
+  width: 120px;
+  text-align: center;
+}
+
+form p{
+  clear: both;
+  margin: 10px 0;
+}
+
+form p label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
+    padding:10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+form p input{
+   display: inline-block;
+   float: left;
+   padding:10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.8);
+  background: rgba(255,255,255,0.8);
+  width: 250px;
+}
+form p span{
+  color: red;
+  padding-left: 30px;
+  padding-top: 14px;
+  display: inline-block;
 }
 
 /* MEDIUM INSERTS */
@@ -258,51 +392,3 @@ margin:.6%;
 border-radius:5px;
 padding:15px 10px 15px .6%;
 }
-
-
-/* DROPDOWN STYLING */
-
-.dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 5px 80px 5px 40px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
-}
-
-.dropdown {
-  float:right;
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-
-.dropdown-content a {
-  right:0;
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd
-}
-
-.show {display:block;}

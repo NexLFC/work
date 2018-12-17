@@ -110,8 +110,8 @@ if(filter_input(INPUT_POST,'register')){
 }
 
 ?>
-<fieldset>
-    <legend>Register</legend>
+<div class="registration_container">
+  <h2 style="text-align:center">Register</h2>
     <?php if(isset($_SESSION['msg'])){
         echo $_SESSION['msg'];
         unset($_SESSION['msg']);
@@ -178,7 +178,7 @@ if(filter_input(INPUT_POST,'register')){
             <input type="submit" name="register" value="Register" />
         </p>
     </form>
-</fieldset>
+  </div>
 
 
 
